@@ -2,6 +2,7 @@ body {
     background-color: LightGray;
     margin: 0;
 }
+
 div {
     border: 1px solid Chocolate;
 }
@@ -10,8 +11,14 @@ div {
 .top-navigation {
     background-color: #fff;
 }
+
 .top-navigation > .content {
-    width: 970px;
-    height: 70px;
+    width: 60rem;
+    height: 4.375rem;
     margin: 0 auto;
+}
+
+.logo {
+margin-left: 4.6rem;
+margin-top: .95rem;
 }
