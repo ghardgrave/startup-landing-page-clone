@@ -21,16 +21,17 @@ div {
 .top-navigation {
     background-color: #fff;
     position: fixed;
-width: 100%;
 z-index: 9999;
+width: 100%;
+overflow: hidden;
+min-width: 4rem;
 }
 
 .top-navigation .content {
-    width: 60rem;
+    width: auto;
     height: 4.375rem;
     margin: 0 auto;
     padding: 0px 15px;
-
 }
 
 .top-navigation .links a {
@@ -90,8 +91,9 @@ margin-top: .95rem;
 
 
 .introduction h1 {
+    font-weight: 300;
 
-	margin-top: 12rem;
+	margin-top: 17rem;
     font-size: 3.125rem;
 }
 
@@ -99,7 +101,11 @@ margin-top: .95rem;
 .introduction h1, .introduction h3 {
     color: white;
     text-align: center;
-    font-weight: 300;
+}
+
+.introduction h3 {
+font-size: 1.4rem;
+font-weight: 100;
 }
 
 button {
@@ -131,15 +137,14 @@ button:hover {
 /* Icon Section */
 .icon-section {
     background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
 }
 
 .icon-section .content {
-    width: 50rem;
     height: 50rem;
-    margin: 0 auto;
-    padding: 0px 15px;
+    padding: 0px 0px;
     text-align: center;
-
 }
 
 .icon-section .content h1 {
@@ -149,21 +154,26 @@ button:hover {
 	}
 
 .devices .caption {
-	margin-top: 1rem;
+	margin-top: .5rem;
+	padding-top: 0rem;
+	box-sizing: border-box;
 	width: 12rem;
-	padding-top: 1rem;
+	text-align: center;
 	}
 
+
 .devices > li {
-	margin-top: .6rem;
+	margin: .6rem 1.3rem .6rem 0rem;
 	display: inline-block;
 	vertical-align: top;
+	padding: 0 1rem 0 0;
+
+
 }
  
 .devices .caption > h3 {
    	font-weight: normal;
-	margin-top: 1rem;
-	font-size: 1.7rem;
-
+	font-size: 1.52rem;
+	width: auto;
    }
 
